@@ -1,5 +1,6 @@
 # LinkIt
 LinkIt is a social media web application for developers. User can register to the website and login, create posts, like and comment on the posts.
+Link: https://linkit-app.herokuapp.com/
 
 ## Technologies used
 It is built using MERN(Mongodb, Express, React, Nodejs) stack. Json Web Token is used for authentication and redux is used for state management
