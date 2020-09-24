@@ -4,19 +4,18 @@ LinkIt is a social media web application for developers. User can register to th
 ## Technologies used
 It is built using MERN(Mongodb, Express, React, Nodejs) stack. Json Web Token is used for authentication and redux is used for state management
 
-##Install server dependencies
+## Install server dependencies
 ```
 npm install
 ```
-##Install client dependencies
+## Install client dependencies
 ```
 cd client
 npm install
 ```
 
-##Configure environment variables
-Create default.json in config folder
-Add following data
+## Configure environment variables
+Create a config folder in root and within the config folder create default.json with following data
 ```
 {
   "mongoURI": "<mongo_uri>",
