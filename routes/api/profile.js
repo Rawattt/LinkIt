@@ -65,7 +65,7 @@ router.post(
     } = req.body;
 
     const profileFields = {
-      user: req.user.id,
+      user: req.user,
       company,
       location,
       website:
@@ -92,7 +92,7 @@ router.post(
     try {
       // Using upsert option (creates new doc if no match is found):
       let profile = await Profile.findOneAndUpdate(
-        { user: req.user.id },
+        { user: req.user },
         { $set: profileFields },
         { new: true, upsert: true }
       );
